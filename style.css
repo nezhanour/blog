@@ -2,8 +2,17 @@
     margin: 0;
     padding: 0;
 }
+.head-container{
+    background-color: #1F2937;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
 nav a{
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 nav ul{
     list-style-type: none;
@@ -11,8 +20,22 @@ nav ul{
     gap: 16px;
     padding-right: 16px;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
+nav .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+div .welcome{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+div .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signup{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
 }
