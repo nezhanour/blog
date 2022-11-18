@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +24,18 @@ nav ul{
 nav .logo{
     font-size: 24px;
     color: #F9FAF8;
+}
+img{
+    /* flex: 1;
+    min-width: 0;
+    min-height: 0;*/
+    max-height: 200px;
+    max-width: 200px;
+} 
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div .welcome{
     font-size: 48px;
