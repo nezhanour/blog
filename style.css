@@ -22,6 +22,8 @@ img {
 }
 .links{
     gap: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 nav a{
     text-decoration: none;
@@ -56,7 +58,7 @@ div .welcome{
     color: #F9FAF8;
     font-weight: 900;
 }
-div .text{
+.text{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -66,5 +68,12 @@ div .text{
     padding: 5px 20px;
     border: none;
     margin-top: 18px;
+}
+
+.knowus{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
 }
 
