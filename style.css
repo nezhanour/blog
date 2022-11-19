@@ -3,19 +3,25 @@
     margin: 0;
     padding: 0;
 }
+img {
+    width: 100%;
+  }
 .head-container{
-    /* border: 4px solid red; */
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 1 0px
 }
+
 .nav{
     width: 900px;
-    /* border: 4px solid blue; */
     display: flex;
     justify-content: space-between;
-
+    margin-top: 10px;
+}
+.links{
+    gap: 25px;
 }
 nav a{
     text-decoration: none;
@@ -32,19 +38,18 @@ nav .logo{
     font-size: 24px;
     color: #F9FAF8;
 }
-img{
-    /* flex: 1;
-    min-width: 0;
-    min-height: 0; */
-    width: 100px;
-    height: 100px;
+.information img{
+    border-radius: 10px;
+    max-width:50%;
+    height: 30vh;
+    margin-left: 10px;
 } 
 .information{
     width: 900px;
     height: 300px;
-    /* border: 4px solid green; */
     display: flex;
     align-items: center;
+    gap: 30px;
 }
 div .welcome{
     font-size: 48px;
@@ -58,6 +63,8 @@ div .text{
 .signup{
     background-color: #3882F6;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border: none;
+    margin-top: 18px;
 }
+
