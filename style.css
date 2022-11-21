@@ -5,6 +5,7 @@
 }
 img {
     width: 100%;
+    height: 100%;
   }
 .head-container{
     background-color: #1F2937;
@@ -75,5 +76,33 @@ div .welcome{
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin: 30px;
 }
+
+.info .text{
+    color: #424345;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 40px;
+}
+.cards > *{
+    max-width: 200px;
+    text-align: center;
+}
+/* add this when you have hobbies images
+.info img{
+    width: 200px;
+    height: 200px;
+} */
+div .img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid blue;
+    border-radius: 10px;
+}
+
 
