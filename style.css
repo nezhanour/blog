@@ -87,12 +87,14 @@ div .welcome{
 .info .text{
     color: #67696b;
     text-align: center;
+    margin-top: 10px;
 }
 .cards{
     display: flex;
     justify-content: center;
     gap: 52px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .cards > *{
     max-width: 200px;
