@@ -67,13 +67,15 @@ div .welcome{
 .text{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 18px;
 }
 .signup{
     background-color: #3882F6;
+    color: #F9FAF8;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 8px 25px;
+    font-size: medium;
     border: none;
-    margin-top: 18px;
 }
 
 .knowus{
@@ -133,4 +135,22 @@ div .img{
     flex-direction: column;
 }
 
-
+.action{
+    background-color: #3882F6;
+    width: 800px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+    margin: 55px 0;
+    border-radius: 10px;
+}
+.actiontext{
+    font-size: 25px;
+    color: #F9FAF8;
+    margin-top: 10px;
+}
+#signup{
+    border: 2px solid #E5E7EB;
+}
