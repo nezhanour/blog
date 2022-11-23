@@ -153,6 +153,10 @@ div .welcome{
 #signup{
     border: 2px solid #E5E7EB;
 }
+button:hover{
+    background-color: #E5E7EB; /* Green */
+    color: black;
+}
 
 footer{
     background-color: #1F2937;
